@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+ <style>
+form {
+  border: 10px solid rgb(55, 79, 86);
+  width:300px;
+  height: 300px;
+  
+  padding: 20px;
+  justify-content: center;
+    align-items: center;
+    
+
+}
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Registration form</h1>
+ <form>
+        <lable><b>firstname:</b></lable><br>
+    <input type="text" onkeyup="console.log(this.value)" placeholder="enter name"><br>
+    <lable><b>lastname:</b></lable><br>
+    <input type="text" placeholder="enter name"><br>
+    <lable><b>mobile number:</b></lable><br>
+    <input type="number" placeholder="enter mbl num"><br>
+    <lable><b>Email:</b></lable><br>
+    <input type="text" placeholder="enter mail id"><br>
+    <lable><b>course:</b></lable><br>
+        <label>Choose a course:</label>
+<select name="course" id="car-select">
+    <option value="mercedes">AI</option>
+    <option value="tesla">Cyber security</option>
+    <option value="volvo">Full stack</option>
+    <option value="volvo">Cloud computing</option>
+    <option value="mercedes">ML</option>
+    <option value="tesla">Advanced Software Design</option>
+    <option value="volvo">Entrepreneurial Thinking & Digital Models </option>
+    <option value="volvo">Multi Core Programming </option>
+
+</select><br><br><br>
+
+
+    <input type="submit" value="submit" ><br>  
+ </form>
+</body>
+</html>
